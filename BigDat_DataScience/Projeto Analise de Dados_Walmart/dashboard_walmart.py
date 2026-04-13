@@ -21,12 +21,12 @@ engine = create_engine('postgresql://postgres:Kk*991004@localhost:5433/db_projet
 col1, col2 = st.columns(2)
 
 with col1:
-    st.subheader("📈 Tendência de Vendas (Sazonalidade)")
-    query_saz = ler_sql('Select_sazonalidade.sql')
-    df_saz = pd.read_sql(query_saz, engine)
-    fig1, ax1 = plt.subplots(figsize=(8, 5))
-    sns.lineplot(data=df_saz, x=df_saz.columns[0], y=df_saz.columns[1], marker='o', ax=ax1)
-    st.pyplot(fig1)
+    st.subheader("📈 Tendência de Vendas (Sazonalidade)") # título na interface
+    query_saz = ler_sql('Select_sazonalidade.sql') # executa a query SQL 
+    df_saz = pd.read_sql(query_saz, engine) # executa a query SQL 
+    fig1, ax1 = plt.subplots(figsize=(8, 5)) # criação do gráfico
+    sns.lineplot(data=df_saz, x=df_saz.columns[0], y=df_saz.columns[1], marker='o', ax=ax1) #criação do gráfico
+    st.pyplot(fig1) # exibe o gráfico na interface
 
 with col2:
     st.subheader("🏖️ Impacto dos Feriados")
