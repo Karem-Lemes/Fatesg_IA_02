@@ -53,10 +53,13 @@ visualização de dados e modelagem preditiva com Machine Learning.
 
 ---
 
-## Estrutura do Repositório
-├── Projeto Analise de Dados_SuperStore.ipynb  # Notebook principal
-├── Sample - Superstore.csv                    # Base de dados
-└── README.md                                  # Este arquivo
+## 📂 Estrutura do Repositório
+
+```
+├── Projeto Analise de Dados_SuperStore.ipynb
+├── Sample - Superstore.csv
+└── README.md
+```
 
 ---
 
