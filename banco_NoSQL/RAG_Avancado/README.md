@@ -43,5 +43,5 @@ Fonte: https://atos.cnj.jus.br/files/original1555302025031467d4517244566.pdf
 3. Executar os blocos em ordem
 
 ## Disciplina
-Inteligência Artificial — SENAI FATESG  
+Banco de Dados NoSQL — SENAI FATESG  
 Semestre: 2º semestre / 2025
