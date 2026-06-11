@@ -1,6 +1,6 @@
 # RAG com Reranking — LGPD
 
-**Trabalho Final N2 — Banco de Dados / Inteligência Artificial**  
+**Trabalho Final N2 — Banco de Dados NoSLQ / Inteligência Artificial**  
 **SENAI FATESG — 2025**
 
 ---
